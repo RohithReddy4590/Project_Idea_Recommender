@@ -1,0 +1,76 @@
+version: '3.9'
+
+services:
+
+  mysql:
+    image: mysql:8.0
+    container_name: recommender-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-rootpassword}
+      MYSQL_DATABASE: ${DB_NAME:-recommender_db}
+      MYSQL_USER: ${DB_USER:-recommender}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-rootpassword}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./src/main/resources/db/data/seed_skills.sql:/docker-entrypoint-initdb.d/01_seed_skills.sql
+      - ./src/main/resources/db/data/seed_projects.sql:/docker-entrypoint-initdb.d/02_seed_projects.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${DB_PASSWORD:-rootpassword}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - recommender-net
+
+  backend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: recommender-backend
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILE: prod
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_NAME: ${DB_NAME:-recommender_db}
+      DB_USER: ${DB_USER:-recommender}
+      DB_PASSWORD: ${DB_PASSWORD:-rootpassword}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8080/api/agent/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      start_period: 120s
+      retries: 5
+    networks:
+      - recommender-net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.frontend
+    container_name: recommender-frontend
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "3000:80"
+    networks:
+      - recommender-net
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  recommender-net:
+    driver: bridge

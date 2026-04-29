@@ -1,0 +1,11 @@
+target/
+.git/
+.gitignore
+*.md
+*.log
+frontend/node_modules/
+frontend/build/
+.env
+docker/
+docs/
+scripts/
