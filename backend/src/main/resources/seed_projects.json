@@ -1,0 +1,452 @@
+[
+  {
+    "title": "Scalable Microservices Gateway",
+    "description": "Design and implement a high-performance API Gateway using Spring Cloud Gateway with rate limiting and circuit breakers.",
+    "difficulty": "ADVANCED",
+    "domain": "BACKEND",
+    "techStack": ["Java", "Spring Boot", "Spring Cloud", "Redis"],
+    "skillsRequired": ["Java", "Microservices", "Networking"],
+    "learningOutcomes": ["API Management", "Distributed Systems"]
+  },
+  {
+    "title": "Real-time Chat Application",
+    "description": "A WebSocket-based chat system supporting private messaging and group rooms.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "FULLSTACK",
+    "techStack": ["Node.js", "Socket.io", "React", "MongoDB"],
+    "skillsRequired": ["JavaScript", "WebSockets", "NoSQL"],
+    "learningOutcomes": ["Real-time communication", "Full-stack integration"]
+  },
+  {
+    "title": "Personal Finance Dashboard",
+    "description": "Visualize spending habits with charts and categorize transactions automatically.",
+    "difficulty": "BEGINNER",
+    "domain": "FRONTEND",
+    "techStack": ["React", "Chart.js", "Tailwind CSS"],
+    "skillsRequired": ["React", "CSS", "Data Visualization"],
+    "learningOutcomes": ["UI/UX Design", "Chart Integration"]
+  },
+  {
+    "title": "Image Sentiment Analyzer",
+    "description": "Use deep learning to analyze the emotional tone of uploaded images.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "AI_ML",
+    "techStack": ["Python", "TensorFlow", "Flask"],
+    "skillsRequired": ["Python", "Computer Vision", "Machine Learning"],
+    "learningOutcomes": ["Neural Networks", "API Deployment"]
+  },
+  {
+    "title": "CI/CD Pipeline Optimizer",
+    "description": "Automate deployment workflows with GitHub Actions and Docker.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "DEVOPS",
+    "techStack": ["Docker", "GitHub Actions", "Terraform"],
+    "skillsRequired": ["Automation", "Cloud Infrastructure"],
+    "learningOutcomes": ["DevOps Lifecycle", "Infrastructure as Code"]
+  },
+  {
+    "title": "Network Vulnerability Scanner",
+    "description": "A tool to scan local networks for open ports and known vulnerabilities.",
+    "difficulty": "ADVANCED",
+    "domain": "SECURITY",
+    "techStack": ["Python", "Nmap", "Scapy"],
+    "skillsRequired": ["Cybersecurity", "Networking", "Python"],
+    "learningOutcomes": ["Penetration Testing", "Security Auditing"]
+  },
+  {
+    "title": "E-commerce Inventory System",
+    "description": "Backend system for managing products, categories, and stock levels.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "BACKEND",
+    "techStack": ["Java", "Spring Boot", "MySQL"],
+    "skillsRequired": ["Java", "SQL", "REST APIs"],
+    "learningOutcomes": ["Relational Database Design", "CRUD Operations"]
+  },
+  {
+    "title": "Weather Forecast App",
+    "description": "Display weather data based on user location using a third-party API.",
+    "difficulty": "BEGINNER",
+    "domain": "FRONTEND",
+    "techStack": ["JavaScript", "HTML", "CSS"],
+    "skillsRequired": ["JavaScript", "API Integration"],
+    "learningOutcomes": ["Asynchronous Programming", "DOM Manipulation"]
+  },
+  {
+    "title": "Stock Price Predictor",
+    "description": "Time-series analysis to predict stock market trends.",
+    "difficulty": "ADVANCED",
+    "domain": "AI_ML",
+    "techStack": ["Python", "PyTorch", "Pandas"],
+    "skillsRequired": ["Statistics", "Deep Learning", "Data Analysis"],
+    "learningOutcomes": ["Time-series Forecasting", "Model Tuning"]
+  },
+  {
+    "title": "Kubernetes Cluster Monitor",
+    "description": "Dashboard to monitor the health and performance of K8s clusters.",
+    "difficulty": "ADVANCED",
+    "domain": "DEVOPS",
+    "techStack": ["Kubernetes", "Prometheus", "Grafana"],
+    "skillsRequired": ["Container Orchestration", "Monitoring"],
+    "learningOutcomes": ["Observability", "Cluster Management"]
+  },
+  {
+    "title": "Portfolio Website Template",
+    "description": "A responsive and customizable portfolio site for developers.",
+    "difficulty": "BEGINNER",
+    "domain": "FRONTEND",
+    "techStack": ["React", "Tailwind CSS"],
+    "skillsRequired": ["CSS", "React"],
+    "learningOutcomes": ["Responsive Web Design", "Component-based UI"]
+  },
+  {
+    "title": "Distributed Cache System",
+    "description": "Implementation of a key-value store with LRU eviction and replication.",
+    "difficulty": "ADVANCED",
+    "domain": "BACKEND",
+    "techStack": ["Go", "gRPC"],
+    "skillsRequired": ["System Design", "Concurrency"],
+    "learningOutcomes": ["Consistency Models", "High Availability"]
+  },
+  {
+    "title": "Movie Recommendation Engine",
+    "description": "Collaborative filtering to recommend movies to users.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "AI_ML",
+    "techStack": ["Python", "Scikit-learn"],
+    "skillsRequired": ["Machine Learning", "Recommendation Systems"],
+    "learningOutcomes": ["Data Mining", "Evaluation Metrics"]
+  },
+  {
+    "title": "Authentication Provider Service",
+    "description": "OAuth2 and JWT based authentication service.",
+    "difficulty": "ADVANCED",
+    "domain": "BACKEND",
+    "techStack": ["Java", "Spring Security", "PostgreSQL"],
+    "skillsRequired": ["Security", "Authentication", "Java"],
+    "learningOutcomes": ["Secure Coding", "Identity Management"]
+  },
+  {
+    "title": "Recipe Finder App",
+    "description": "Search for recipes based on available ingredients.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "FULLSTACK",
+    "techStack": ["React", "Express", "PostgreSQL"],
+    "skillsRequired": ["Full-stack Development", "SQL"],
+    "learningOutcomes": ["Complex Querying", "State Management"]
+  },
+  {
+    "title": "Static Site Generator",
+    "description": "Build a custom tool that converts Markdown files to HTML.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "BACKEND",
+    "techStack": ["Rust"],
+    "skillsRequired": ["Systems Programming", "File I/O"],
+    "learningOutcomes": ["Compiler Basics", "Performance"]
+  },
+  {
+    "title": "Log Aggregator",
+    "description": "Centralize logs from multiple sources and provide search capabilities.",
+    "difficulty": "ADVANCED",
+    "domain": "DEVOPS",
+    "techStack": ["ELK Stack", "Docker"],
+    "skillsRequired": ["Logging", "System Administration"],
+    "learningOutcomes": ["Big Data Searching", "Pipeline Automation"]
+  },
+  {
+    "title": "Secure Password Manager",
+    "description": "Desktop app to store passwords with AES encryption.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "SECURITY",
+    "techStack": ["Electron", "JavaScript", "Crypto"],
+    "skillsRequired": ["Cryptography", "Desktop Development"],
+    "learningOutcomes": ["Data Encryption", "Local Storage"]
+  },
+  {
+    "title": "Fitness Tracker App",
+    "description": "Track workouts and visualize progress over time.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "FRONTEND",
+    "techStack": ["React Native"],
+    "skillsRequired": ["Mobile Development", "React"],
+    "learningOutcomes": ["Cross-platform Apps", "User Interaction"]
+  },
+  {
+    "title": "Traffic Sign Recognizer",
+    "description": "Computer vision model to identify road signs in real-time.",
+    "difficulty": "ADVANCED",
+    "domain": "AI_ML",
+    "techStack": ["Python", "OpenCV", "PyTorch"],
+    "skillsRequired": ["Computer Vision", "Deep Learning"],
+    "learningOutcomes": ["Real-time Inference", "Data Augmentation"]
+  },
+  {
+    "title": "Serverless Document Parser",
+    "description": "Automatically extract text from PDFs using AWS Lambda.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "BACKEND",
+    "techStack": ["AWS Lambda", "Python", "Textract"],
+    "skillsRequired": ["Cloud Computing", "Serverless"],
+    "learningOutcomes": ["Event-driven Architecture", "Cloud Services"]
+  },
+  {
+    "title": "Code Snippet Manager",
+    "description": "Web app to store and organize frequently used code snippets.",
+    "difficulty": "BEGINNER",
+    "domain": "FULLSTACK",
+    "techStack": ["Vue.js", "Firebase"],
+    "skillsRequired": ["Frontend Frameworks", "Firebase"],
+    "learningOutcomes": ["Real-time Database", "Serverless Hosting"]
+  },
+  {
+    "title": "Penetration Testing Lab",
+    "description": "Set up a virtual environment to practice ethical hacking.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "SECURITY",
+    "techStack": ["Kali Linux", "VirtualBox"],
+    "skillsRequired": ["Ethical Hacking", "Networking"],
+    "learningOutcomes": ["Exploit Research", "Vulnerability Management"]
+  },
+  {
+    "title": "Chatbot for Customer Support",
+    "description": "NLP-based bot that answers common user queries.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "AI_ML",
+    "techStack": ["Python", "NLTK", "Flask"],
+    "skillsRequired": ["NLP", "Web Development"],
+    "learningOutcomes": ["Text Processing", "Integration"]
+  },
+  {
+    "title": "Infrastructure as Code Library",
+    "description": "Develop reusable Terraform modules for cloud resources.",
+    "difficulty": "ADVANCED",
+    "domain": "DEVOPS",
+    "techStack": ["Terraform", "AWS"],
+    "skillsRequired": ["Cloud Architecture", "Terraform"],
+    "learningOutcomes": ["Modular Infrastructure", "Cloud Best Practices"]
+  },
+  {
+    "title": "Social Media Analytics Tool",
+    "description": "Analyze trends and engagement across various social platforms.",
+    "difficulty": "ADVANCED",
+    "domain": "AI_ML",
+    "techStack": ["Python", "Spark", "Kafka"],
+    "skillsRequired": ["Big Data", "Data Engineering"],
+    "learningOutcomes": ["Stream Processing", "Sentiment Analysis"]
+  },
+  {
+    "title": "Bug Tracking System",
+    "description": "Collaborative tool for managing software bugs and feature requests.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "BACKEND",
+    "techStack": ["Java", "Spring Boot", "Hibernate"],
+    "skillsRequired": ["Java", "Relational Databases"],
+    "learningOutcomes": ["Workflow Automation", "Entity Mapping"]
+  },
+  {
+    "title": "Markdown Blog Platform",
+    "description": "A blog that parses Markdown files and supports dynamic routing.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "FRONTEND",
+    "techStack": ["Next.js", "MDX"],
+    "skillsRequired": ["Next.js", "React"],
+    "learningOutcomes": ["SEO Optimization", "Dynamic Content"]
+  },
+  {
+    "title": "Automated Backup Script",
+    "description": "Script to schedule and perform backups of critical data to the cloud.",
+    "difficulty": "BEGINNER",
+    "domain": "DEVOPS",
+    "techStack": ["Shell", "AWS CLI"],
+    "skillsRequired": ["Scripting", "Cloud Storage"],
+    "learningOutcomes": ["Task Scheduling", "Disaster Recovery"]
+  },
+  {
+    "title": "Intrusion Detection System",
+    "description": "Monitor system activity and alert on suspicious behavior.",
+    "difficulty": "ADVANCED",
+    "domain": "SECURITY",
+    "techStack": ["C++", "Linux Kernal"],
+    "skillsRequired": ["System Programming", "Cybersecurity"],
+    "learningOutcomes": ["Low-level Monitoring", "Threat Detection"]
+  },
+  {
+    "title": "Video Streaming Service",
+    "description": "Simple Netflix clone using HLS for adaptive streaming.",
+    "difficulty": "ADVANCED",
+    "domain": "FULLSTACK",
+    "techStack": ["React", "Express", "FFmpeg"],
+    "skillsRequired": ["Video Encoding", "Web Development"],
+    "learningOutcomes": ["Media Delivery", "Frontend Optimization"]
+  },
+  {
+    "title": "Task Management App",
+    "description": "Drag-and-drop task board for team collaboration.",
+    "difficulty": "BEGINNER",
+    "domain": "FRONTEND",
+    "techStack": ["React", "React Beautiful DnD"],
+    "skillsRequired": ["React", "UI Components"],
+    "learningOutcomes": ["Interactive UI", "State Management"]
+  },
+  {
+    "title": "Language Translator CLI",
+    "description": "Command-line tool that translates text using Google Translate API.",
+    "difficulty": "BEGINNER",
+    "domain": "BACKEND",
+    "techStack": ["Go"],
+    "skillsRequired": ["CLI Development", "API Requests"],
+    "learningOutcomes": ["Go Tooling", "External Services"]
+  },
+  {
+    "title": "Fraud Detection System",
+    "description": "Analyze transaction patterns to identify potential fraud.",
+    "difficulty": "ADVANCED",
+    "domain": "AI_ML",
+    "techStack": ["Python", "XGBoost", "Hadoop"],
+    "skillsRequired": ["Anomaly Detection", "Machine Learning"],
+    "learningOutcomes": ["Feature Engineering", "Large-scale Modeling"]
+  },
+  {
+    "title": "Secure File Transfer Protocol",
+    "description": "Implement a simplified version of SFTP with encrypted channels.",
+    "difficulty": "ADVANCED",
+    "domain": "SECURITY",
+    "techStack": ["Java", "Cryptography"],
+    "skillsRequired": ["Networking", "Encryption"],
+    "learningOutcomes": ["Protocol Design", "Secure Communication"]
+  },
+  {
+    "title": "Event Booking Platform",
+    "description": "Manage event listings and ticket reservations.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "FULLSTACK",
+    "techStack": ["Angular", "NestJS", "PostgreSQL"],
+    "skillsRequired": ["TypeScript", "Full-stack"],
+    "learningOutcomes": ["Enterprise Architecture", "API Design"]
+  },
+  {
+    "title": "Resource Monitoring Agent",
+    "description": "Lightweight agent to track CPU and RAM usage across servers.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "DEVOPS",
+    "techStack": ["Python", "Prometheus Client"],
+    "skillsRequired": ["System Monitoring", "Python"],
+    "learningOutcomes": ["Metrics Collection", "Server Management"]
+  },
+  {
+    "title": "Cryptocurrency Tracker",
+    "description": "Real-time dashboard for tracking coin prices and market cap.",
+    "difficulty": "BEGINNER",
+    "domain": "FRONTEND",
+    "techStack": ["React", "Tailwind CSS"],
+    "skillsRequired": ["React", "API Integration"],
+    "learningOutcomes": ["Data Fetching", "Dynamic UI"]
+  },
+  {
+    "title": "Distributed Task Queue",
+    "description": "System for processing background tasks asynchronously.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "BACKEND",
+    "techStack": ["Python", "Celery", "Redis"],
+    "skillsRequired": ["Message Queues", "Asynchronous Tasks"],
+    "learningOutcomes": ["Parallel Processing", "Task Scheduling"]
+  },
+  {
+    "title": "Facial Recognition Attendance",
+    "description": "Automate attendance using face detection technology.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "AI_ML",
+    "techStack": ["Python", "dlib", "SQLite"],
+    "skillsRequired": ["Biometrics", "Database"],
+    "learningOutcomes": ["Pattern Recognition", "Edge Computing"]
+  },
+  {
+    "title": "Containerized Development Env",
+    "description": "Create a Docker-based environment for consistent team development.",
+    "difficulty": "BEGINNER",
+    "domain": "DEVOPS",
+    "techStack": ["Docker", "Docker Compose"],
+    "skillsRequired": ["Containerization", "Workflow"],
+    "learningOutcomes": ["Environment Reproducibility", "Collaboration"]
+  },
+  {
+    "title": "Virtual Classroom Platform",
+    "description": "A platform with video conferencing and file sharing.",
+    "difficulty": "ADVANCED",
+    "domain": "FULLSTACK",
+    "techStack": ["React", "WebRTC", "Node.js"],
+    "skillsRequired": ["Peer-to-Peer", "Full-stack"],
+    "learningOutcomes": ["Real-time Collaboration", "Streaming Protocols"]
+  },
+  {
+    "title": "Web Scraper for Jobs",
+    "description": "Automatically gather job listings from multiple career sites.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "BACKEND",
+    "techStack": ["Python", "BeautifulSoup"],
+    "skillsRequired": ["Data Extraction", "Web Crawling"],
+    "learningOutcomes": ["Data Cleaning", "Automation"]
+  },
+  {
+    "title": "Interactive Story Game",
+    "description": "A text-based adventure game with branching paths and state storage.",
+    "difficulty": "BEGINNER",
+    "domain": "FRONTEND",
+    "techStack": ["JavaScript", "HTML", "CSS"],
+    "skillsRequired": ["Logic", "JavaScript"],
+    "learningOutcomes": ["Game Logic", "UI Interactivity"]
+  },
+  {
+    "title": "Plant Disease Detector",
+    "description": "Mobile app that identifies plant diseases from photos.",
+    "difficulty": "ADVANCED",
+    "domain": "AI_ML",
+    "techStack": ["Flutter", "TensorFlow Lite"],
+    "skillsRequired": ["Mobile AI", "Deep Learning"],
+    "learningOutcomes": ["On-device Inference", "Cross-platform Development"]
+  },
+  {
+    "title": "Centralized Config Server",
+    "description": "Service to manage and distribute configurations across microservices.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "BACKEND",
+    "techStack": ["Java", "Spring Cloud Config"],
+    "skillsRequired": ["Spring Cloud", "Configuration Management"],
+    "learningOutcomes": ["Distributed Configuration", "Reliability"]
+  },
+  {
+    "title": "Personal Budget Planner",
+    "description": "Manage income, expenses, and savings goals with simple visualizations.",
+    "difficulty": "BEGINNER",
+    "domain": "FULLSTACK",
+    "techStack": ["React", "Node.js", "SQLite"],
+    "skillsRequired": ["Full-stack Basics", "Database"],
+    "learningOutcomes": ["Data Management", "Application Structure"]
+  },
+  {
+    "title": "Blockchain-based Voting",
+    "description": "Secure and transparent voting system using smart contracts.",
+    "difficulty": "ADVANCED",
+    "domain": "SECURITY",
+    "techStack": ["Solidity", "Ethereum", "React"],
+    "skillsRequired": ["Blockchain", "Smart Contracts"],
+    "learningOutcomes": ["Decentralization", "Security Protocols"]
+  },
+  {
+    "title": "Cloud Cost Optimizer",
+    "description": "Analyze cloud usage and suggest ways to reduce costs.",
+    "difficulty": "ADVANCED",
+    "domain": "DEVOPS",
+    "techStack": ["Python", "AWS SDK"],
+    "skillsRequired": ["Cloud Economics", "Data Analysis"],
+    "learningOutcomes": ["Resource Optimization", "Cloud Governance"]
+  },
+  {
+    "title": "Language Learning App",
+    "description": "Flashcard-based app with speech recognition for pronunciation.",
+    "difficulty": "INTERMEDIATE",
+    "domain": "FULLSTACK",
+    "techStack": ["React Native", "Firebase"],
+    "skillsRequired": ["Mobile Development", "AI APIs"],
+    "learningOutcomes": ["Multimedia Integration", "Cloud Backend"]
+  }
+]

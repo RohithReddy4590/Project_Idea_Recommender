@@ -1,11 +1,8 @@
-target/
-.git/
-.gitignore
-*.md
+node_modules
+dist
+target
 *.log
-frontend/node_modules/
-frontend/build/
+.git
 .env
-docker/
-docs/
-scripts/
+frontend/node_modules
+backend/target
